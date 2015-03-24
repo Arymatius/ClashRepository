@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.niklas.clashofclanswiki"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Splash"
+            android:label=" " >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Clash of Clans Wiki" >
+           
+        </activity>
+        <activity
+            android:name="defense.DefensActivity"
+            android:label="@string/title_activity_defens" >
+        </activity>
+        <activity
+            android:name="truppen.TruppenActivity"
+            android:label="@string/title_activity_truppen" >
+        </activity>
+        <activity
+            android:name="armee.ArmeeActivity"
+            android:label="@string/title_activity_armee" >
+        </activity>
+        <activity
+            android:name="ressourcen.RessourcenActivity"
+            android:label="@string/title_activity_ressourcen" >
+        </activity>
+        <activity
+            android:name="andere.AndereActivity"
+            android:label="@string/title_activity_andere" >
+        </activity>
+        <activity
+            android:name="defense.Kanone"
+            android:label="@string/title_activity_kanone" >
+        </activity>
+        <activity
+            android:name="defense.BogenTurm"
+            android:label="@string/title_activity_bogen_turm" >
+        </activity>
+        <activity
+            android:name="defense.Minenwerfer"
+            android:label="@string/title_activity_minenwerfer" >
+        </activity>
+        <activity
+            android:name="defense.LuftAbwehr"
+            android:label="@string/title_activity_luft_abwehr" >
+        </activity>
+        <activity
+            android:name="defense.MagierTurm"
+            android:label="@string/title_activity_magier_turm" >
+        </activity>
+        <activity
+            android:name="defense.VerborgenerTesla"
+            android:label="@string/title_activity_verborgener_tesla" >
+        </activity>
+        <activity
+            android:name="defense.X_Bogen"
+            android:label="@string/title_activity_x__bogen" >
+        </activity>
+        <activity
+            android:name="defense.Mauer"
+            android:label="@string/title_activity_mauer" >
+        </activity>
+        <activity
+            android:name="defense.Traps"
+            android:label="@string/title_activity_traps" >
+        </activity>
+        <activity
+            android:name="defense.InfernoTurm"
+            android:label="@string/title_activity_inferno_turm" >
+        </activity>
+        <activity
+            android:name="andere.Hindernisse"
+            android:label="@string/title_activity_hindernisse" >
+        </activity>
+        <activity
+            android:name="andere.Clanburg"
+            android:label="@string/title_activity_clanburg" >
+        </activity>
+        <activity
+            android:name="andere.Dekorationen"
+            android:label="@string/title_activity_dekorationen" >
+        </activity>
+        <activity
+            android:name="andere.Rathaus"
+            android:label="@string/title_activity_rathaus" >
+        </activity>
+        <activity
+            android:name="armee.Armeelager"
+            android:label="@string/title_activity_armeelager" >
+        </activity>
+        <activity
+            android:name="armee.Kaserne"
+            android:label="@string/title_activity_kaserne" >
+        </activity>
+        <activity
+            android:name="armee.DunkleKaserne"
+            android:label="@string/title_activity_dunkle_kaserne" >
+        </activity>
+        <activity
+            android:name="armee.Labor"
+            android:label="@string/title_activity_labor" >
+        </activity>
+        <activity
+            android:name="armee.Zauberfabrik"
+            android:label="@string/title_activity_zauberfabrik" >
+        </activity>
+        <activity
+            android:name="armee.ADBK"
+            android:label="@string/title_activity_adbk" >
+        </activity>
+        <activity
+            android:name="armee.ADBOK"
+            android:label="@string/title_activity_adbok" >
+        </activity>
+        <activity
+            android:name="ressourcen.Bauhuette"
+            android:label="@string/title_activity_bauhuette" >
+        </activity>
+        <activity
+            android:name="ressourcen.LFDE"
+            android:label="@string/title_activity_lfde" >
+        </activity>
+        <activity
+            android:name="ressourcen.BFDE"
+            android:label="@string/title_activity_bfde" >
+        </activity>
+        <activity
+            android:name="ressourcen.ElexierLager"
+            android:label="@string/title_activity_elexier_lager" >
+        </activity>
+        <activity
+            android:name="ressourcen.ElexierSammler"
+            android:label="@string/title_activity_elexier_sammler" >
+        </activity>
+        <activity
+            android:name="ressourcen.Goldlager"
+            android:label="@string/title_activity_goldlager" >
+        </activity>
+        <activity
+            android:name="ressourcen.Goldmine"
+            android:label="@string/title_activity_goldmine" >
+        </activity>
+        <activity
+            android:name="truppen.PEKKA"
+            android:label="@string/title_activity_pekk" >
+        </activity>
+        <activity
+            android:name="truppen.Drache"
+            android:label="@string/title_activity_drache" >
+        </activity>
+        <activity
+            android:name="truppen.Heiler"
+            android:label="@string/title_activity_heiler" >
+        </activity>
+        <activity
+            android:name="truppen.Magier"
+            android:label="@string/title_activity_magier" >
+        </activity>
+        <activity
+            android:name="truppen.Ballon"
+            android:label="@string/title_activity_ballon" >
+        </activity>
+        <activity
+            android:name="truppen.Mauerbrecher"
+            android:label="@string/title_activity_mauerbrecher" >
+        </activity>
+        <activity
+            android:name="truppen.Riese"
+            android:label="@string/title_activity_riese" >
+        </activity>
+        <activity
+            android:name="truppen.Kobold"
+            android:label="@string/title_activity_kobold" >
+        </activity>
+        <activity
+            android:name="truppen.Barbar"
+            android:label="@string/title_activity_barbar" >
+        </activity>
+        <activity
+            android:name="truppen.Bogenschuetze"
+            android:label="@string/title_activity_bogenschuetze" >
+        </activity>
+        
+    </application>
+
+</manifest>
