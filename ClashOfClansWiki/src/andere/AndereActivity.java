@@ -26,7 +26,7 @@ public class AndereActivity extends Activity {
 		Hindernisse();
 		
 		ActionBar actionBar = getActionBar();
-		actionBar.setBackgroundDrawable(new ColorDrawable(Color.RED));
+		actionBar.setBackgroundDrawable(new ColorDrawable(R.color.orange));
 	}
 
 	private void Hindernisse() {
